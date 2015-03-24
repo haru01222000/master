@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.header{
+	width:801px;
+	height:532px;
+	text-align:left;
+	background:url(../images/top_image.jpg) no-repeat;
+}
+.header-address{
+	line-height:0em;
+	text-indent:-1000em;
+}
+.menu-eria{
+	position:absolute;
+	top:85px;
+	left:30px;
+	width:172px;
+	height:488px;
+	background:url(../images/menu_back.gif) no-repeat;
+}
+.menu{
+	position:absolute;
+	top:29px;
+	left:10px;
+	width:170px;
+	height:215px;
+	list-style:none;
+}
+.home-btn a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:152px;
+	height:46px;
+	background:url(../images/home_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.news-btn a{
+	position:absolute;
+	top:46px;
+	left:0px;
+	width:152px;
+	height:43px;
+	background:url(../images/news_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.syouhin-btn a{
+	position:absolute;
+	top:89px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/syouhin_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.tenpo-btn a{
+	position:absolute;
+	top:134px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/tenpo_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.qa-btn a{
+	position:absolute;
+	top:179px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/qa_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.info-eria{
+	position:absolute;
+	top:253px;
+	left:11px;
+	width:146px;
+	height:228px;
+}
+.info-title{
+	position:absolute;
+	top:5px;
+	left:30px;
+	width:88px;
+	height:19px;
+	background:url(../images/info.gif) no-repeat;
+	text-indent:-1000em;
+}
+.info-back{
+	position:absolute;
+	top:27px;
+	left:0px;
+	width:146px;
+	height:200px;
+	background:url(../images/info_back.gif) no-repeat;
+}
+.info-text{
+	margin-left:10px;
+	margin-top:10px;
+	font-size:12px;
+}
+.info-color{
+	color:#FF0000;
+}
+.concept{
+	text-indent:-1000em;
+}
