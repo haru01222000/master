@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+.header{
+	width:801px;
+	height:532px;
+	text-align:left;
+	background:url(../images/image.jpg) no-repeat;
+}
+.header-address{
+	line-height:0em;
+	text-indent:-1000em;
+}
+.menu-eria{
+	position:absolute;
+	top:85px;
+	left:30px;
+	width:172px;
+	height:488px;
+	background:url(../images/menu_back.gif) no-repeat;
+}
+.menu{
+	position:absolute;
+	top:29px;
+	left:10px;
+	width:170px;
+	height:215px;
+	list-style:none;
+}
+.home-btn a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:152px;
+	height:46px;
+	background:url(../images/home_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.news-btn a{
+	position:absolute;
+	top:46px;
+	left:0px;
+	width:152px;
+	height:43px;
+	background:url(../images/news_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.syouhin-btn a{
+	position:absolute;
+	top:89px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/syouhin_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.tenpo-btn a{
+	position:absolute;
+	top:134px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/tenpo_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+.qa-btn a{
+	position:absolute;
+	top:179px;
+	left:0px;
+	width:152px;
+	height:45px;
+	background:url(../images/qa_btn.gif) no-repeat;
+	text-indent:-1000em;
+	text-decoration:none;
+}
+/**news**/
+.news-eria{
+	position:absolute;
+	top:100px;
+	left:230px;
+	width:540px;
+	height:430px;
+}
+.news-title{
+	position:relative;
+	top:10px;
+	left:0px;
+}
+.tenpo-naiyou{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:540px;
+	height:390px;
+}
+.tenpo-left{
+	position:absolute;
+	top:30px;
+	left:0px;
+	width:301px;
+	height:373px;
+	font-size:11px;
+}
+.event-title{
+	width:300px;
+	height:26px;
+	background:url(../images/event_title.gif) no-repeat;
+	text-indent:-1000em;
+}
+.tenpo-right{
+	position:absolute;
+	top:34px;
+	left:321px;
+	width:219px;
+	height:373px;
+	font-size:11px;
+}
+.oshirase-title{
+	widthh:219px;
+	height:22px;
+	background:url(../images/oshirase_title.gif) no-repeat;
+	text-indent:-1000em;
+}
+dd{
+	line-height:2.5em;
+}
+.font-color{
+	color:#f33;
+}
+.font{
+	font-size:12px;
+	font-weight:bold;
+	color:#33f;
+}
