@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/**reset.css**/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/**reset.cssここまで**/
+
+
+/*共通部分*/
+body{
+	color:#333;
+	font:14px/1.3 sans-selif;
+}
+
+.left{
+	text-align:left;
+}
+
+.clear{
+	clear:both;
+}
+
+
+a{
+	color:#333;
+	text-decoration:none;
+}
+
+header{
+	height:71px;
+	width:100%;
+	background:url(../images/head_side.gif) repeat-x;
+}
+
+h1{
+	width:70%;
+	float:left;
+}
+
+.g-menu{
+	float:right;
+	margin-top:10px;
+	margin-right:6px;
+	line-height:2.8em;
+	width:20%;
+}
+.g-menu a{
+	max-width:100%;
+	max-height:100%;
+	text-align:center;
+	display:block;
+	border-radius:1em;
+	
+	
+}
+
+#contents{
+	width:100%;
+	height:100%;
+}
+
+
+.main-nav ul li{
+	margin-left:0.3em;
+	margin-right:1.9em;
+	list-style:none;
+}
+
+/** フッターエリア **/
+
+section h4{
+	border:1px solid #fbe26e;
+	padding-left:15px;
+	padding-top:3px;
+	margin-top:38px;
+	line-height:1.5em;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FCEB9D),
+	color-stop(1, #FBDE5C)
+);
+background-image: -o-linear-gradient(bottom, #FCEB9D 0%, #FBDE5C 100%);
+background-image: -moz-linear-gradient(bottom, #FCEB9D 0%, #FBDE5C 100%);
+background-image: -webkit-linear-gradient(bottom, #FCEB9D 0%, #FBDE5C 100%);
+background-image: -ms-linear-gradient(bottom, #FCEB9D 0%, #FBDE5C 100%);
+background-image: linear-gradient(to bottom, #FCEB9D 0%, #FBDE5C 100%);
+}
+
+.link-area li{
+	border:1px solid #ccc;
+	margin-top:13px;
+	margin-bottom:10px;
+	padding-left:15px;
+	padding-top:3px;
+	line-height:3.2em;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #F5F5F5),
+	color-stop(1, #DDDDDD)
+);
+background-image: -o-linear-gradient(bottom, #F5F5F5 0%, #DDDDDD 100%);
+background-image: -moz-linear-gradient(bottom, #F5F5F5 0%, #DDDDDD 100%);
+background-image: -webkit-linear-gradient(bottom, #F5F5F5 0%, #DDDDDD 100%);
+background-image: -ms-linear-gradient(bottom, #F5F5F5 0%, #DDDDDD 100%);
+background-image: linear-gradient(to bottom, #F5F5F5 0%, #DDDDDD 100%);
+}
+
+.link-area li a{
+	display:block;
+	
+}
+
+.link-area li a span{
+	display:block;
+	float:right;
+	width:24px;
+	height:24px;
+	background:#666;
+	line-height:1.4em;
+	margin-right:20px;
+	margin-top:9px;
+	padding-left:1px;
+	border-radius:1em;
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+footer{
+	margin-top:30px;
+	height:50px;
+	background:#000;
+	text-align:center;
+}
+
+footer small{
+	line-height:2.8em;
+	font-size:1.2Sem;
+	font-weight:bold;
+	color:#FFFFFF;
+}
