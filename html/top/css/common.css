@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+img{
+	border:0px;
+}
+
+body{
+	text-align:center;
+	width:100%;
+	height:100%;
+	font-family: "qMmpS Pro W3","lr oSVbN",Osaka,sans-serif,HiraMinPro-W3;
+	color:#000;
+	background:#FF6633;
+}
+#background{
+	margin:0px auto;
+	width:900px;
+	height:1000px;
+	background:url(../images/red.gif) no-repeat;
+}
+.layout{
+	position:relative;
+	top:43px;
+	left:0px;
+	margin:0px auto;
+	width:801px;
+	height:885px;
+	background:#FFFFFF;
+	border-left:2px ridge #999999;
+	border-right:2px ridge #999999;
+	border-bottom:2px ridge #999999;
+}
+
+.title a{
+	text-decoration:none;
+}
+.content-eria{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:801px;
+	height:368px;
+	text-align:left;
+}
+.left{
+	position:absolute;
+	top:43px;
+	left:30px;
+	width:174px;
+	height:214px;
+}
+.new-text-eria{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:174px;
+	height:214px;
+	font-size:11px;
+}
+.new-text-title{
+	width:174px;
+	height:22px;
+	background:url(../images/new_title.gif) no-repeat;
+	text-indent:-1000em;
+}
+.new-text{
+	line-height:2em;
+}
+.center{
+	position:absolute;
+	top:15px;
+	left:230px;
+	width:272px;
+	height:235px;
+	background:url(../images/cotent_back.gif) no-repeat;
+}
+.pick-up-eria{
+	position:relative;
+	top:24px;
+	left:14px;
+	width:244px;
+	height:202px;
+	font-size:11px;
+}
+.pick-up-title{
+	width:247px;
+	height:26px;
+	background:url(../images/pick_up.gif) no-repeat;
+	text-indent:-1000em;
+}
+.pick-up-image{
+	margin-top:19px;
+}
+.pick-up-text{
+	line-height:1.6em;
+}
+.pick-up-color{
+	color:#FF0000;
+}
+.right{
+	position:absolute;
+	top:15px;
+	left:520px;
+	width:272px;
+	height:235px;
+	background:url(../images/cotent_back.gif) no-repeat;
+}
+.campaign-eria{
+	position:relative;
+	top:24px;
+	left:14px;
+	width:244px;
+	height:202px;
+	font-size:11px;
+}
+.campaign-title{
+	width:220px;
+	height:24px;
+	background:url(../images/campaign.gif) no-repeat;
+	text-indent:-1000em;
+}
+.campaign-text{
+	margin-top:19px;
+	line-height:1.6em;
+}
+.campaign-color{
+	color:#FF0000;
+}
+.footer-eria{
+	position:relative;
+	top:41px;
+	left:0px;
+	margin:0px auto;
+	width:801px;
+	height:100px;
+}
+.footer-menu{
+	margin-top:3px;
+	width:801px;
+	height:10px;
+	color:#FFFFFF;
+	font-size:12px;
+}
+address{
+	margin-top:10px;
+	text-align:left;
+	line-height:1.6em;
+	font-size:12px;
+	color:#FFFFFF;
+}
