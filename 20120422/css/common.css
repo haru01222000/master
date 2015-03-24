@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+/*-----------------------------------------
+	ヘッダー
+-----------------------------------------*/
+
+
+#header{/**20120417追加　ヘッド左寄せ**/
+	text-align:left;
+	margin-left:20px;
+	
+}
+
+.head-area{
+	border-bottom:2px solid #000;
+}
+
+
+.nav-box{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.nav-menu-area{
+	padding-left:20px;
+}
+
+.nav-menu-area li a{
+	background:#004D99;
+	color:#FFFFFF;
+	width:100%;
+
+}
+
+
+/*-----------------------------------------
+	フッター
+-----------------------------------------*/
+
+
