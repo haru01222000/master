@@ -1,4 +1,2 @@
-## master
-#master GitHub 練習用
-
+# master GitHub練習用2015
 メインリポジトリ
