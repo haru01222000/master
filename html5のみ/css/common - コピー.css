@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+
+/**共通部分**/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*IE HTML5対策*/
+header,footer,nav,section,article,figure,aside {
+　display:block;
+}
+
+img{
+	border:0px;
+	vertical-align:bottom; 
+}
+
+
+strong{
+	font-weight:normal;
+}
+
+a{
+	text-decoration:none;
+	color:#036;
+}
+
+a:hover{
+	color:#03C;
+	text-decoration:underline;
+}
+
+.anker{
+	text-align:right;
+	width:640px;
+}
+
+.clear{
+	clear:both;
+}
+
+body{
+	width:100%;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:13px;
+}
+
+/*ヘッダー部分*/
+header{
+	width:100%;
+	height:123px;
+	background:url(../img/side_bar.gif) repeat-x;
+}
+
+#header-area{
+	width:976px;
+	height:105px;
+	text-align:center;
+	margin:0px auto;
+}
+
+
+
+.title{
+	text-align:left;
+	float:left;
+}
+
+.text01{
+	text-align:right;
+	padding-top:70px;
+	
+
+}
+
+.head-menu li{
+	display:inline;
+}
+
+/*コンテンツ部分*/
+#contents{
+	padding-top:50px;
+	padding-left:3px;
+	width:976px;
+	height:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+/**メニューエリア**/
+.menu-area{
+	width:225px;
+	line-height:0.01em;
+	text-align:left;
+	float:left;
+	
+}
+
+.ikiiki-btn{
+	padding-bottom:0px;
+	text-decoration:none;
+}
+
+.ikiiki-list{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:232px;
+	height:83px;
+	margin-bottom:10px;
+	border:1px solid #DE689D;
+}
+
+.hakujuji-btn{
+	text-decoration:none;
+}
+
+.hakujuji-list{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:232px;
+	height:83px;
+	border:1px solid #F6F;
+}
+
+.sasebo-btn{
+	padding-top:10px;
+	text-decoration:none;
+}
+
+
+
+.saiyou-btn{
+	padding-top:10px;
+	text-decoration:none;
+}
+
+.form-btn{
+	padding-top:10px;
+	text-decoration:none;
+}
+
+.tominaga-btn{
+	padding-top:10px;
+	text-decoration:none;
+}
+
+/**関連リンク**/
+
+.link-list{
+	width:225px;
+	padding-top:50px;
+	line-height:0.01em;
+}
+
+.link-list dd{
+	padding-top:10px;
+}
+
+/*コンテンツ右エリア*/
+.right{
+	text-align:left;
+	margin-left:247px;
+	height:100%;
+	width:716px;
+}
+
+/**メニューボトム**/
+
+.menu-bottom{
+	width:976px;
+	font-size:12px;
+	text-align:center;
+	margin:0px auto;
+	padding-bottom:10px;
+}
+
+.menu-bottom ul li{
+	list-style:none;
+	display:inline;
+}
+/**フッターエリア**/
+
+.footer-area{
+	width:100%;
+	height:82px;
+	background:#EEF4F7;
+}
+
+.footer{
+	width:976px;
+	height:82px;
+	text-align:center;
+	margin:0px auto;
+	
+}
+
+.add-txt{
+	text-align:right;
+}
+
+.top-anker{
+	margin-top:0px;
+	text-align:right;
+	float:right;
+}
+
+small{
+	font-size:12px;
+	text-align:left;
+	display:block;
+}

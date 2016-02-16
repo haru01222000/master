@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+.contents-area{
+	width:100%;
+}
+
+.contents{
+	position:relative;
+	top:29px;
+	left:0px;
+	width:897px;
+	height:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+.right{
+	text-align:left;
+	padding-left:245px;
+	height:100%;
+}
+
+.top-contents{
+	width:715px;
+	margin-bottom:100px;
+	background:#FCF9C2;
+	border:1px solid #E98AB4;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;        /* CSS3草案 */  
+	-webkit-border-bottom-right-radius: 10px; 
+    -webkit-border-bottom-left-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-bottom-right-radius: 10px; 
+	-moz-border-bottom-left-radius: 10px;  
+}
+
+.haku-menu{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:715px;
+	height:57px;
+	background:#FFFFFF;
+	list-style:none;
+}
+
+.haku-btn01{
+	position:absolute;
+	top:10px;
+	left:5px;
+}
+
+.haku-btn02{
+	position:absolute;
+	top:10px;
+	left:149px;
+}
+
+.haku-btn03{
+	position:absolute;
+	top:10px;
+	left:291px;
+}
+
+.haku-btn04{
+	position:absolute;
+	top:10px;
+	left:433px;
+}
+
+.haku-btn05{
+	position:absolute;
+	top:10px;
+	left:575px;
+}
+
+.kojin-m{
+	padding-top:0px;
+}
+
+.kojin-txt{
+	padding:20px;
+	line-height:1.8em;
+
+}
+
+.kojin-txt dd{
+	margin-left:15px;
+}
+
+.m-hakujyuji{
+	width:700px;
+	height:37px;
+	background:url(../hakujyuji/img/m-bar.gif) no-repeat;
+	margin-left:9px;
+	margin-bottom:10px;
+	line-height:2.4em;
+	padding-left:60px;
+	font-size:16px;
+	color:#FFFFFF;	
+}
+
+.table01{
+	width:700px;
+	border:1px solid #ED7A94;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+
+.table01 th{
+	width:200px;
+	padding:10px;
+	text-align:center;
+	background:#EFEFEF;
+	border:1px solid #ED7A94;
+}
+.table01 td{
+	width:410px;
+	padding:5px;
+	border:1px solid #ED7A94;
+}
+
+

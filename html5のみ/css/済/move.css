@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+.contents-area{
+	width:100%;
+}
+
+.contents{
+	position:relative;
+	top:29px;
+	left:0px;
+	width:897px;
+	height:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+.right{
+	text-align:left;
+	padding-left:245px;
+	height:100%;
+}
+
+.top-contents{
+	width:716px;
+}
+
+.move-area{
+	width:716px;
+	height:100%;
+	margin-top:40px;
+	margin-bottom:500px;
+}
+
+.move-menu{
+	margin-top:20px;
+	width:200px;
+	float:left;
+}
+
+.move-m{
+	padding-left:15px;
+	line-height:0.01em;
+}
+
+.move-m dt{
+	padding-bottom:10px;
+}
+
+.move-m dd{
+	padding-bottom:10px;
+}
+
+.move-i{
+	width:500px;
+	float:right;
+}
+
+.flv-area{
+	padding-left:10px;
+}
+
+/**白十字会グループ**/
+
+.hakujujikai-area{
+	width:716px;
+	height:100%;
+	margin-top:20px;
+	margin-bottom:400px;
+}
+
+.hakujujikai-t{
+	margin-bottom:20px;
+}

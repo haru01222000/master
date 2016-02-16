@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+
+/**共通部分**/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*IE HTML5対策*/
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+img{
+	border:0px;
+	vertical-align:bottom; 
+}
+
+
+strong{
+	font-weight:normal;
+}
+
+a{
+	text-decoration:none;
+	color:#036;
+}
+
+a:hover{
+	color:#03C;
+	text-decoration:underline;
+}
+
+.anker{
+	text-align:right;
+	width:640px;
+}
+
+.clear{
+	clear:both;
+}
+
+ul{
+	list-style:none;
+}
+
+body{
+	width:100%;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:13px;
+}
+
+/*ヘッダー部分*/
+header{
+	width:100%;
+	height:123px;
+	background:url(../img/side_bar.gif) repeat-x;
+}
+
+#header-area{
+	width:976px;
+	height:105px;
+	text-align:center;
+	margin:0px auto;
+}
+
+h1{
+	text-align:left;
+	width:406px;
+	float:left;
+}
+
+.text01{
+	text-align:right;
+	padding-top:70px;
+	float:right;
+}
+
+.head-menu li{
+	display:inline;
+}
+
+/*コンテンツBOX*/
+#contents{
+	padding-top:50px;
+	padding-left:3px;
+	width:976px;
+	height:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+/*レフトエリア*/
+.left-area{
+	text-align:left;
+	float:left;
+}
+.left-menu01{
+	padding-left:50px;
+	width:182px;
+	/*height:87px;*/
+	line-height:1.3em;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:1px solid #DE689D;
+	margin-bottom:10px;
+}
+
+.left-menu02{
+	padding-left:50px;
+	width:182px;
+	/*height:87px;*/
+	line-height:1.3em;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:1px solid #F6F;
+	margin-bottom:10px;
+}
+
+.left-menu03{
+	padding-left:50px;
+	width:182px;
+	line-height:1.3em;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:1px solid #5DCCBE;
+	margin-bottom:10px;
+}
+
+.link-area li{
+	margin-bottom:10px;
+}
+
+.link-title{
+	margin-bottom:10px;
+}
+
+/*ライトエリア*/
+#right-area{
+	text-align:left;
+	margin-left:249px;	
+}
+
+/**ボトムメニューエリア**/
+.menu-bottom ul li{
+	display:inline;
+}
+
+
+/*フッターエリア*/
+footer{
+	width:100%;
+	height:82px;
+	background:#EEF4F7;
+}
+
+#footer-area{
+	width:976px;
+	height:82px;
+	text-align:center;
+	margin:0px auto;
+}
+
+small{
+	text-align:left;
+	display:block;
+}
