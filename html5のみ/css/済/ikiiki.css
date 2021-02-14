@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+
+
+
+
+
+
+.contents-area{
+	width:100%;
+}
+
+.contents{
+	position:relative;
+	top:29px;
+	left:0px;
+	width:897px;
+	height:100%;
+	text-align:center;
+	margin:0px auto;
+}
+
+.right{
+	text-align:left;
+	padding-left:245px;
+	height:100%;
+}
+
+.top-contents{
+	width:716px;
+}
+
+.ikiiki-area{
+	width:716px;
+	height:100%;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+.ikiiki-menu{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:710px;
+	height:75px;
+	border-bottom:8px solid #D02873;
+	list-style:none;
+}
+
+
+.houjin-btn{
+	position:absolute;
+	top:1px;
+	left:0px;
+}
+
+.kyodou-btn{
+	position:absolute;
+	top:0px;
+	left:240px;
+}
+
+.jinji-btn{
+	position:absolute;
+	top:0px;
+	left:478px;
+}
+
+.box-center{
+	width:710px;
+	height:100%;
+	background:url(../ikiiki/img/box-center.gif) repeat-y;
+}
+
+h5{
+	padding-top:20px;
+	padding-left:20px;
+	color:#D02873;
+	font-size:18px;
+}
+
+.box{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.box dd{
+	margin-left:30px;
+	line-height:1.8em;
+	text-align:left;
+}
+
+.box-bottom{
+	width:710px;
+	height:11px;
+	background:url(../ikiiki/img/box-bottom.gif) no-repeat;
+}
+
